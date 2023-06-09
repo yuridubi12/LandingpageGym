@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.5rem solid #fc3503;
+    border-top: 0.5rem solid #fc3503;
+}
+nav{
+    width: 100vw;
+    height: 90px;
+    display: flex;
+}
+nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    color: white;
+    height: 90px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav .logo h1{
+    font-size: 32px;
+}
+nav .logo h1 span{
+    color:#fc3503;
+    margin-left: 1px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 90px;
+}
+
+nav ul a{
+    padding: 0.9rem 1.4rem;
+    margin: 0 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family:'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul a:hover{
+    color: #ec4141;
+    border-bottom: 2px solid #ec4141;
+}
+.active{
+    color: #ec4141;
+    border-bottom: 2px solid #ec4141;
+}
+.header-container{
+    /*border: 1px solid red;*/
+    width: 40%;
+    position: relative;
+    top: 25%;
+    left: 2rem;
+}
+.header-container  h1{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 48px;
+}
+.header-container h1 .border-bottom{
+    border-bottom: 2px solid #ec4141;
+}
+.text-primary{
+    color: #ec4141;
+}
+.header-container p{
+    width: 80%;
+    margin-top: 2rem;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn{
+    padding: 0.7rem 1.5rem;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.btn-primary{
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    background-color: #ec4141;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.5s linear;
+    border: 1px solid #ec4141;
+}
+.btn-primary:hover{
+    background-color: transparent;
+}
